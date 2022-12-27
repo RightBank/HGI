@@ -56,7 +56,7 @@ In case you would like to construct your own dataset to learn region representat
 - `xiamen`: Xiamen Island, China
 - `shenzhen`: Shenzhen, China
 and three downstream tasks:
-- `uf`: urban function inference
+- `uf`: urban function inference (this repo contains mocked ground truth data, the real ground truth data can be requested from [here](http://geoscape.pku.edu.cn/en.html))
 - `pd`: population density estimation
 - `hp`: housing price estimation
 
