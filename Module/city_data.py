@@ -9,12 +9,12 @@ def hgi_graph(city_name='xiamen'):
     Note that the data file should be put under the directory ./Data/"""
     city_dict_file = f'./Data/{city_name}_data.pkl'
     if city_name == "shenzhen" and not os.path.exists(city_dict_file):
-        print("Please download data for Shenzhen from https://figshare.com/articles/dataset/Sub-sampled_dataset_for_Shenzhen_HGI_region_embedding_example_dataset_/21836496")
+        print("Please download data for Shenzhen from https://drive.google.com/file/d/1ha19v0WjEpYsYfM3cZN69ifY4hbAzeFb/view")
         exit()
     elif not os.path.exists(city_dict_file):
         print(f"Please construct dataset for {city_name} following the instructions in README.md, and making it in "
               f"the same structure of the data for Shenzhen, which can be downloaded from "
-              f"https://figshare.com/articles/dataset/Sub-sampled_dataset_for_Shenzhen_HGI_region_embedding_example_dataset_/21836496")
+              f"https://drive.google.com/file/d/1ha19v0WjEpYsYfM3cZN69ifY4hbAzeFb/view")
         exit()
     with open(city_dict_file, 'rb') as handle:
         city_dict = pkl.load(handle)
