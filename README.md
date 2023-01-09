@@ -29,7 +29,7 @@ The learned region representations will be saved in the `./Emb` folder.
 
 The arguments that can be specified in `train.py` are as follows:
 - `--city`: the city name, e.g., "shenzhen". 
-  - We provide a sample pre-processed dataset (subset of the dataset) in Shenzhen, and you could download the [data](https://drive.google.com/file/d/1ha19v0WjEpYsYfM3cZN69ifY4hbAzeFb/view) `shenzhen_data.pkl` and put it under the folder `Data`. After that, you can run `python train.py --city shenzhen` to learn the region representations for Shenzhen.
+  - We provide a sample pre-processed dataset (subset of the dataset) in Shenzhen, and you could download the [data](https://figshare.com/articles/dataset/Sub-sampled_dataset_for_Shenzhen_HGI_region_embedding_example_dataset_/21836496) `shenzhen_data.pkl` and put it under the folder `Data`. After that, you can run `python train.py --city shenzhen` to learn the region representations for Shenzhen.
 - `--dim`: the dimension of the learned region representations.
 - `--alpha`: the hyperparameter to ba balance mutual information.
 - `--attention_head`: number of attention heads in the aggregation function.
@@ -38,7 +38,7 @@ The arguments that can be specified in `train.py` are as follows:
 - `--gamma`: gamma in learning rate scheduler.
 - `--warmup_period`: the warmup period.
 - `--epoch`: the number of epochs.
-- `--device`: the device to use, which can be `cpu` or `cuda:{}`.
+- `--device`: the device to use, which can be `cpu` or `cuda` or `cuda:{}`.
 - `--save_name`: the name of the saved region representations.'
 
 In case you would like to construct your own dataset to learn region representations for other study areas, you need to construct a Data object in the `./Data` folder. The Data object should contain the following attributes:
