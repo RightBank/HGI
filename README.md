@@ -74,6 +74,20 @@ The learned region representations for Xiamen Island and Shenzhen are available 
 ## Notes
 Some codes for the pooling from POIs to regions are borrowed from [Set Transformer's GitHub repository](https://github.com/juho-lee/set_transformer).
 
+## Citation
+
+If you use the code in this project, please cite the paper in IJGIS
+```
+@article{huang2023hgi,
+  title={Learning urban region representations with POIs and hierarchical graph infomax},
+  author={Huang, Weiming and Zhang, Daokun and Mai, Gengchen and Guo, Xu and Cui, Lizhen},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={196},
+  pages={134--145},
+  year={2023}
+}
+```
+
 ## Contact
 Weiming Huang (Nanyang Technological University)
 
