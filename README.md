@@ -1,6 +1,7 @@
 # Learning region representations with POIs and hierarchical graph infomax
 
-This project is linked to a paper accepted to ISPRS Journal of Photogrammetry and Remote Sensing.
+This project is linked to a paper published in ISPRS Journal of Photogrammetry and Remote Sensing: [Learning urban region representations with POIs and hierarchical graph infomax](https://doi.org/10.1016/j.isprsjprs.2022.11.021)
+.
 In this study, we propose the hierarchical graph infomax (HGI) approach for learning urban region representations (vector embeddings) with points-of-interest (POIs) in a fully unsupervised manner, which can be used in various downstream tasks. 
 ![HGI](Figures/HGI.png)
 ## Quick start
