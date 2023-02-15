@@ -37,7 +37,7 @@ The arguments that can be specified in `train.py` are as follows:
 - `--lr`: the learning rate.
 - `--max_norm`: the maximum norm of the gradient.
 - `--gamma`: gamma in learning rate scheduler.
-- `--warmup_period`: the warmup period.
+- `--warmup_period`: the warmup period, i.e., how many epochs for linear learning rate warmup.
 - `--epoch`: the number of epochs.
 - `--device`: the device to use, which can be `cpu` or `cuda` or `cuda:{}`.
 - `--save_name`: the name of the saved region representations.'
