@@ -76,7 +76,7 @@ Some codes for the pooling from POIs to regions are borrowed from [Set Transform
 
 ## Citation
 
-If you use the code in this project, please cite the paper ISPRS Journal.
+If you use the code in this project, please cite the paper the ISPRS Journal.
 ```
 @article{huang2023hgi,
   title={Learning urban region representations with POIs and hierarchical graph infomax},
