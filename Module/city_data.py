@@ -4,7 +4,7 @@ from torch_geometric.data import Data
 import os
 
 
-def hgi_graph(city_name='xiamen'):
+def hgi_graph(city_name='shenzhen'):
     """the function hgi_graph() returns a Data object of the city graph.
     Note that the data file should be put under the directory ./Data/"""
     city_dict_file = f'./Data/{city_name}_data.pkl'
